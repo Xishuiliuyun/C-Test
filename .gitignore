@@ -1,0 +1,46 @@
+# 忽略编译生成的文件
+*.o
+*.obj
+*.exe
+*.a
+*.so
+*.dll
+*.out
+*.ilk
+*.pdb
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.ipch
+*.db
+*.idb
+*.tlog
+*.recipe
+
+# 忽略构建目录 
+calculator-main/
+Test/
+AddressBook/.vs/
+ComputerReservationSystem/.vs/
+Employee Management System/.vs/
+FirstProject/.vs/
+SpeechContest/.vs/
+说明.txt
+
+# 忽略日志和临时文件
+*.log
+*.tmp
+*.swp
+*.swo
+
+# 忽略 macOS 的 .DS_Store
+.DS_Store
+
+# 忽略 CMake 生成的文件
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略 VSCode 的配置（可选）
+.vscode/
